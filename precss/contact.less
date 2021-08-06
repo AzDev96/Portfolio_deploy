@@ -1,0 +1,94 @@
+.footer{
+    padding: 100px 0 50px;
+    h2{
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 45px;
+        color: #375F79;
+        font-weight: 500;
+    }
+    .contact__row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .contact__full{
+        li{
+            text-decoration: underline;
+            font-weight: 500;
+            font-style: italic;
+            color: #375F79;
+            .fas{
+                font-size: 25px;
+                margin-right: 10px;
+            }
+            a{
+                .fas{
+                    font-size: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .contact__me{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        li{
+            a{
+                display: flex;
+                align-items: center;
+                color: #375F79;
+                &:hover{
+                    color: #fb3; 
+                }
+                .fab{
+                    font-size: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .earth {
+        position: absolute;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        max-width: 100%;
+        height: auto;
+        background-image: url(https://1.bp.blogspot.com/-ljMO9Dwy1rA/UcsNGwrqBPI/AAAAAAAAMn4/mpWtA6vOvKg/s1600/new+global+view.jpeg);
+        border-radius:50%;
+        background-size:cover;
+        box-shadow:-20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+        animation:spin 30s linear alternate infinite;
+        .media-block({
+            height: 300px;
+            position: static;
+        },991px)
+      }
+      
+      @keyframes spin {
+        100%{background-position:100%};
+      }
+      &__end{
+          .end{
+              color: #375F79;
+              h3{
+                  font-weight: 500;
+              }
+              p{
+                  font-style: italic;
+                  b{
+                      font-weight: 500;
+                      font-size: 25px;
+                  }
+              }
+              .fas{
+                  color: red;
+              }
+          }
+          margin-top: 50px;
+          text-align: center;
+      }
+}
